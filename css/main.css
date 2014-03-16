@@ -1,0 +1,52 @@
+body {
+    padding: 20px;
+}
+#app-view {
+    padding-top: 10px;
+}
+#header {
+    margin: 0 10px 10px 10px
+}
+.page-view > h3 {
+    margin-left: 20px;
+}
+#places-list {
+    padding: 20px;
+}
+#places-list .panel {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.panel-info .forecast-day {
+    display: none;
+}
+.forecast-day:first-of-type {
+    display: block;
+}
+.panel-info.detail .forecast-day {
+    display: block;
+}
+.forecast-day {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 268px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.forecast-day img{
+    float: left;
+    margin: 10px;
+}
+.forecast-day p{
+    font-size: 26px;
+}
+.celsius .forecast-day .forecast-fahr{
+    display: none;
+}
+.fahrenheit .forecast-day .forecast-cel{
+    display: none;
+}
